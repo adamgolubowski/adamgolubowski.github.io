@@ -1,6 +1,7 @@
 body {
   background: grey; 
   font-family: 'Roboto Slab', serif;
+  font-size: 0.9rem;
 }
 page {
   background: white;
