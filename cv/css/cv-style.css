@@ -1,7 +1,7 @@
 body {
-  background: grey; 
+  background: grey;
   font-family: 'Roboto Slab', serif;
-  font-size: 0.9rem;
+  font-size: 13px;
 }
 page {
   background: white;
@@ -10,13 +10,13 @@ page {
   margin-bottom: 0.5cm;
   box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
 }
-page[size="A4"] {  
+page[size="A4"] {
   width: 21cm;
-  height: 29.7cm; 
+  height: 29.7cm;
 }
 page[size="A4"][layout="portrait"] {
   width: 29.7cm;
-  height: 21cm;  
+  height: 21cm;
 }
 
 @media print {
@@ -45,7 +45,7 @@ page[size="A4"][layout="portrait"] {
   margin-bottom: 25px;
 }
 #first-name{
-  font-size:40px;
+  font-size:30px;
   font-weight:bold;
 }
 
@@ -76,7 +76,7 @@ page[size="A4"][layout="portrait"] {
   padding-right: 2.5cm;
   padding-bottom: 1.8cm;
   font-weight:lighter;
-  font-size: 12px;
+  font-size: 9px;
 }
 
 ul {
