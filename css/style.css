@@ -1,13 +1,18 @@
+@font-face {
+  font-family: 'JetBrainsMono';
+  src: URL('JetBrainsMono-Regular.ttf');
+}
+
 body {
-    background-color: white;
+    background-color: #004445;
     width: 75%;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'JetBrainsMono';
 }
 
 h1{
   font-family: 'VT323', sans-serif;
   font-size: 60px;
-  color: #1B6C21;
+  color: #f8b400;
   font-weight: normal;
   text-transform: uppercase;
   margin-bottom: 10px;
@@ -19,7 +24,7 @@ h2{
   font-family: 'VT323', sans-serif;
   font-size: 40px;
   font-weight: normal;
-  color: #1B6C21;
+  color: #f8b400;
   margin-left: 65px;
   margin-bottom: 0px;
   text-transform: uppercase;
@@ -29,10 +34,11 @@ p{
   font-size: 20px;
   margin-left: 75px;
   margin-top: 10px;
+  color: #faf5e4;
 }
 
 a{
-  color: black;
+  color: #faf5e4;
   text-decoration: none;
 }
 
@@ -40,5 +46,5 @@ a{
   margin-left: 0px;
   font-family: 'VT323', sans-serif;
   font-size: 40px;
-  color: #1B6C21;
+  color: #f8b400;
 }
